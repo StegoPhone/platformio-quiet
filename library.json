@@ -1,0 +1,37 @@
+{
+  "name": "QuietModem",
+  "version": "0.1.2",
+  "description": "PlatformIO wrapper on the Quiet Modem Project. This library uses liquid SDR to transmit data through sound. This makes it suitable for sending data across a 3.5mm headphone jack or via speaker and mic. Quiet can build standalone binaries for encoding/decoding data via .wav files or for streaming through your soundcard via PortAudio. It can also be built as a library to be consumed by other C programs.",
+  "keywords": "sdr, liquidsdr, modem, encode, decode",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/StegoPhone/quiet.git"
+  },
+  "include": "src",
+  "authors":
+  [
+    {
+      "name": "Jessica Mulein",
+      "email": "jessica@mulein.com",
+      "url": "https://github.com/JessicaMulein",
+      "maintainer": true
+    },
+    {
+      "name": "Brian Armstrong",
+      "email": "brian.armstrong.ece+github@gmail.com",
+      "url": "https://github.com/brian-armstrong"
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "homepage": "https://raw.githubusercontent.com/quiet/quiet/master/LICENSE",
+  "dependencies": [
+    {
+        "owner": "JessicaMulein",
+        "name": "QuietDSP",
+        "version": "^0.1.1"
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "*"
+}
